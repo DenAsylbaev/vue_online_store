@@ -3,9 +3,9 @@
         <div class="container">
 
             <div class="subscribeLeft">
-                <img src="../images/subscribeUser.png" alt="">
+                <img src="../images/contact_us.png" alt="">
                 <div class="subscribeUserText">
-                    “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum“
+                    Chat with our Virtual Assistant to find answers to our most frequently asked questions.
                 </div>
             </div>
 

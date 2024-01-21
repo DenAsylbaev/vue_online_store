@@ -6,17 +6,25 @@ export default {
         }
     },
     mutations: {
-        addItem(state, item) {
-            state.cartList = [...state.cartList, item];
-        }
+        setProductsToCart: (state, result) => {
+            state.cartList = result;
+        },
     },
     actions: {
-        getJson({}, url){
+        getJson({commit}, url){
             return fetch(url)
                 .then(result => result.json())
+                .then(result => {
+                    commit('setProductsToCart', result.contents);
+                })
                 .catch(error => {
                     console.log(error)
                 })
-        }
+        },
     },
+        getters: {
+            cartItems(state) {
+                return state.cartList
+        }
+    }
 }

@@ -10,9 +10,6 @@ import './css/normalize.css';
 Vue.config.productionTip = false;
 Vue.config.devtools = true;
 
-// const API = 'https://raw.githubusercontent.com/GeekBrainsTutorial/online-store-api/master/responses';
-
-
 new Vue({
   router,
   store,
@@ -24,14 +21,6 @@ new Vue({
   },
   
   methods: {
-    getJson(url){
-        return fetch(url)
-            .then(result => result.json())
-            .catch(error => {
-                console.log(error)
-                // this.$refs.error.text = error;
-            })
-    },
     postJson(url, data){
         return fetch(url, {
             method: 'POST',
@@ -43,7 +32,6 @@ new Vue({
             .then(result => result.json())
             .catch(error => {
                 console.log(error)
-                // this.$refs.error.text = error;
             })
     },
     putJson(url, data){
@@ -56,7 +44,6 @@ new Vue({
         })
             .then(result => result.json())
             .catch(error => {
-                // console.log(error)
                 this.$refs.error.text = error;
             })
     },
@@ -67,11 +54,9 @@ new Vue({
             headers: {
                 "Content-Type": "application/json"
             },
-            // body: JSON.stringify(data)
         })
             .then(result => result.json())
             .catch(error => {
-                // console.log(error)
                 this.$refs.error.text = error;
             })
     },
@@ -80,3 +65,6 @@ new Vue({
 mounted() {
 }
 }).$mount('#app');
+
+{/* <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> */}
+

@@ -3,28 +3,52 @@
     "countGoods": 2,
     "contents": [
         {
-            "quantity": 1,
-            "id_product": 3,
-            "product_name": "ELLERY X M'O CAPSULE_003",
-            "price": 4500,
-            "img_product": "3.jpg",
-            "imgPath": "../images/featured/3.jpg"
+            "quantity": 4,
+            "id_product": 4306,
+            "product_name": "Steal The Spotlight Leopard Slit Midi Dress",
+            "price": 2513,
+            "img_product": "4306_1.jpg",
+            "discription": "Steal the spotlight looking so fierce in this leopard midi dress! It features spaghetti straps, a v-neckline, and a front slit perfect for showing off some skin and strappy sandals."
         },
         {
             "quantity": 1,
-            "id_product": 2,
-            "product_name": "ELLERY X M'O CAPSULE_002",
-            "price": 3000,
-            "img_product": "2.jpg",
-            "imgPath": "../images/featured/2.jpg"
+            "id_product": 4904,
+            "product_name": "Alluring Trendsetter Halter Midi Dress",
+            "price": 2319,
+            "img_product": "4904_1.jpg",
+            "discription": "Show off your alluring trendy style in this sleek curve-hugging midi dress! It features a cross-front halter neckline with tie-back straps, a cold-shoulder design with long fitted sleeves, and a midi-length asymmetric hem creating a chic high side slit. The smooth knit fabric includes a full lining. Complete the look with your fave mules."
+        },
+        {
+            "quantity": 2,
+            "id_product": 4862,
+            "product_name": "Feeling Good Turtleneck Maxi Dress",
+            "price": 1479,
+            "img_product": "4862_1.jpg",
+            "discription": "Look and feel good in this rib knit maxi dress perfect for everyday styling! It features long sleeves, a turtleneck, a form-hugging silhouette, and a side-slit accent. Complete the look in mules for a dinner date."
         },
         {
             "quantity": 1,
-            "id_product": 1,
-            "product_name": "ELLERY X M'O CAPSULE_001",
-            "price": 1600,
-            "img_product": "1.jpg",
-            "imgPath": "../images/featured/1.jpg"
+            "id_product": 2314,
+            "product_name": "Irresistible Charm Satin A-Line Dress",
+            "price": 2513,
+            "img_product": "2314_1.jpg",
+            "discription": "Who resist your charm the second you stroll in looking fabulous in this satin a-line dress! It features a sleeveless mock neck with dual button closures, a pleated open-back design, and a short-length hem. Style with an envelope clutch and heels to complete the look!"
+        },
+        {
+            "quantity": 1,
+            "id_product": 4806,
+            "product_name": "Cream Of The Crop Cutout Mini Dress",
+            "price": 2190,
+            "img_product": "4806_1.jpg",
+            "discription": "Look and feel your absolute best in this prize-worthy casual mini dress! It features a sleeveless, one-shoulder neckline with a thin shoulder strap, a sultry cutout waist with a hoop insert, and a bodycon silhouette. Complete the look in clear strap heels for a lunch date."
+        },
+        {
+            "quantity": 1,
+            "id_product": 4817,
+            "product_name": "Playful In Crepe Color Block Dress",
+            "price": 1996,
+            "img_product": "4817_1.jpg",
+            "discription": "Play up your fun and wild side in this crepe mini dress featuring a sleeveless scoop neck, spaghetti straps, a color block design with zebra print, and a form-hugging silhouette. Style with lace-up stilettos for the perf club look!"
         }
     ]
 }

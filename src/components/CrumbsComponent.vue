@@ -1,13 +1,11 @@
 <template>
     <div class="newArrivals">
         <div class="container">
-            <h1>NEW ARRIVALS</h1>
+            <h1 class="page_title">{{ this.title }}</h1>
             <nav>
-                <a href="#">HOME</a>
+                <router-link to="/">HOME</router-link>
                 <span>/</span>
-                <a href="#">MEN</a>
-                <span>/</span>
-                <a href="#">NEW ARRIVALS</a>
+                <router-link :to="`/` + this.title ">{{ this.title }}</router-link>
             </nav>
         </div>
     </div>   
@@ -15,6 +13,13 @@
 
 <script>
     export default {
-        name: 'crumbsComp'
+        name: 'crumbsComp',
+
+        data() {
+            return {
+                title: this.$parent.$route.matched[0].name,
+            }
+        }
     }
+    
 </script>

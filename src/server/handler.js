@@ -7,7 +7,6 @@ const actions = {
     del: cart.del
 };
 
-//HANDLER отвечает за изменение данных в самом файле
 let handler = (req, res, action, file) => {
     fs.readFile(file, 'utf-8', (err, data)=> {
         if(err){

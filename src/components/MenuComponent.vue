@@ -7,32 +7,23 @@
             <ul class="menu-list">
                 <li class="menu-list-item">
                 <ul class="menu-list-category">
-                    <li><a href="#" class="menu-list-item-link">man</a></li>
-                    <li class="menu-list-subcategory"><a class="menu-list-subcategory-link" href="#">home</a></li>
-                    <li class="menu-list-subcategory"><a class="menu-list-subcategory-link" href="#">catalog</a></li>
-                    <li class="menu-list-subcategory"><a class="menu-list-subcategory-link" href="#">Denim</a></li>
-                    <li class="menu-list-subcategory"><a class="menu-list-subcategory-link" href="#">T-Shirts</a></li>
-                </ul>
-                </li>
-                <li class="menu-list-item">
-                <ul class="menu-list-category">
-                    <li><a href="#" class="menu-list-item-link">woman</a></li>
+                    <li><a href="#" class="menu-list-item-link">catalog</a></li>
                     <li class="menu-list-subcategory"><a class="menu-list-subcategory-link" href="#">Accessories</a></li>
                     <li class="menu-list-subcategory"><a class="menu-list-subcategory-link" href="#">Jackets & Coats</a></li>
-                    <li class="menu-list-subcategory"><a class="menu-list-subcategory-link" href="#">Polos</a></li>
-                    <li class="menu-list-subcategory"><a class="menu-list-subcategory-link" href="#">T-Shirts</a></li>
+                    <li class="menu-list-subcategory"><a class="menu-list-subcategory-link" href="#">Dresses</a></li>
+                    <li class="menu-list-subcategory"><a class="menu-list-subcategory-link" href="#">Tops</a></li>
                     <li class="menu-list-subcategory"><a class="menu-list-subcategory-link" href="#">Shirts</a></li>
                 </ul>
                 </li>
                 <li class="menu-list-item">
                 <ul class="menu-list-category">
-                    <li><a href="#" class="menu-list-item-link">kids</a></li>
-                    <li class="menu-list-subcategory"><a class="menu-list-subcategory-link" href="#">Accessories</a></li>
-                    <li class="menu-list-subcategory"><a class="menu-list-subcategory-link" href="#">Jackets & Coats</a></li>
-                    <li class="menu-list-subcategory"><a class="menu-list-subcategory-link" href="#">Polos</a></li>
-                    <li class="menu-list-subcategory"><a class="menu-list-subcategory-link" href="#">T-Shirts</a></li>
-                    <li class="menu-list-subcategory"><a class="menu-list-subcategory-link" href="#">Shirts</a></li>
-                    <li class="menu-list-subcategory"><a class="menu-list-subcategory-link" href="#">Bags</a></li>
+                    <li><a href="#" class="menu-list-item-link">support</a></li>
+                    <li class="menu-list-subcategory"><a class="menu-list-subcategory-link" href="#">Contacts</a></li>
+                    <li class="menu-list-subcategory"><a class="menu-list-subcategory-link" href="#">Services</a></li>
+                    <li class="menu-list-subcategory"><a class="menu-list-subcategory-link" href="#">Delivery</a></li>
+                    <li class="menu-list-subcategory"><a class="menu-list-subcategory-link" href="#">Payments & return</a></li>
+                    <li class="menu-list-subcategory"><a class="menu-list-subcategory-link" href="#">Feedbacks</a></li>
+                    <li class="menu-list-subcategory"><a class="menu-list-subcategory-link" href="#">Chats</a></li>
                 </ul>
                 </li>
             </ul>

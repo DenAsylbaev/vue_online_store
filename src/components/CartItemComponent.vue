@@ -1,10 +1,8 @@
 <template>
     <div class="cart-item">
-        <!-- <img src="../images/featured/3.jpg" alt=""> -->
         <div class="product-bio">
             <div class="cart-img-box"> 
                 <img :src="require('../images/featured/' + cartItem.img_product)" alt="Some img">
-                <!-- <img src="../images/featured/3.jpg" alt=""> -->
             </div>
             <div class="product-desc">
                 <div class="product-title">{{ cartItem.product_name }}</div>
@@ -21,20 +19,7 @@
 
 <script>
     export default {
-
         name: "cartItem",
-        // props: {
-        //     cartItem: {
-        //         type: Object,
-        //         default() {
-        //             return {}
-        //         }
-        //     },
-        // }
         props: ['cartItem'],
-
-        mounted() {
-            console.log('test');
-        },
     }
 </script>
